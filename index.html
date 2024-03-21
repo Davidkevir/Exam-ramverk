@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="zxx">
+   <head>
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <!-- <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" /> inkluderar Bootstrap CSS för att stila sidan enligt Bootstrap-ramverket.
+        <title>Examination</title> sätter titeln på webbsidan som visas i webbläsarens flik.-->
+      <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+      <title>Examination</title>
+   </head>
+   <body>
+      <header>
+         <!--En <header> med en navigationsmeny (<nav>), som använder Bootstrap-klasser för styling. 
+            Menyn innehåller länkar till andra sidor som "Hem", "Verkstad", och en dropdown-meny för "Bilar" med val som "EL-BILAR",
+             "BENSIN-BILAR", och "Sälj din bil". -->
+         <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+               <a class="navbar-brand">Biltransport AB</a>
+               <button
+                  class="navbar-toggler"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#navbarSupportedContent"
+                  aria-controls="navbarSupportedContent"
+                  aria-expanded="false"
+                  aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+               </button>
+               <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                     <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Hem</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="verkstad.html">Verkstad</a>
+                     </li>
+                     <li class="nav-item dropdown">
+                        <a
+                           class="nav-link dropdown-toggle"
+                           href="#"
+                           role="button"
+                           data-bs-toggle="dropdown"
+                           aria-expanded="false">
+                           Bilar
+                        </a>
+                        <ul class="dropdown-menu">
+                           <li><a class="dropdown-item" href="elbilar.html">EL-BILAR</a></li>
+                           <li><a class="dropdown-item" href="bensinbilar.html">BENSIN-BILAR</a></li>
+                           <li><hr class="dropdown-divider" /></li>
+                           <li><a class="dropdown-item" href="saljbil.html">Sälj din bil</a></li>
+                        </ul>
+                     </li>
+                  </ul>
+                  <form class="d-flex" role="search">
+                     <input class="form-control me-2" type="search" placeholder="Sök.." aria-label="Search" />
+                     <button class="btn btn-outline-success" type="submit">Sök</button>
+                  </form>
+               </div>
+            </div>
+         </nav>
+      </header>
+
+      <div class="container">
+         <!--En <div> med klassen "container" som innehåller webbsidans huvudinnehåll, inklusive en välkomsttext och information om företaget.-->
+         <div class="container">
+            <div class="row align-items-start">
+               <div class="col pt-3"><img src="images/bmw-car.jpg" class="img-fluid" alt="Vit bmw" /></div>
+               <div class="col pt-5">
+                  <h2>Välkommen till Biltrasnporter</h2>
+                  <p>
+                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur quo, temporibus necessitatibus
+                     hic porro deleniti doloribus commodi, perferendis atque, molestiae assumenda. Odit modi porro
+                     excepturi. Impedit cumque enim repellat. Esse fuga doloremque soluta veniam magnam, commodi
+                     voluptatum quibusdam impedit! Voluptate aliquam neque quos repudiandae ratione, suscipit nemo
+                     eveniet sequi sunt.
+                  </p>
+                  <p>
+                     Odit perferendis aliquid aspernatur ratione sunt impedit. Voluptas consequatur debitis temporibus?
+                     Distinctio suscipit eos eaque voluptas perferendis hic doloremque nulla vel, repellat ut veritatis
+                     modi? Quaerat numquam, excepturi sint commodi voluptatum tempora accusantium minus quasi error
+                     ipsam quibusdam qui, odit repellat assumenda tempore quia ex sed perferendis explicabo ea
+                     dignissimos?
+                  </p>
+                  <p>
+                     Atque nostrum quidem quaerat nobis iste molestias ipsa possimus! Deleniti accusamus doloremque
+                     exercitationem sed corporis eius voluptas facilis, labore, et nulla quis possimus suscipit, nostrum
+                     a omnis neque perferendis ipsam magnam delectus officiis! Consequatur illo rem repudiandae,
+                     numquam.
+                  </p>
+               </div>
+            </div>
+         </div>
+      </div>
+
+      <main>
+         <div class="container text-center text-white bg-dark pb-3">
+            <div class="row align-items-center">
+               <h1 class="h3">Vad behöver du hjälp med?</h1>
+               <div class="col">
+                  <a class="nav-link active" aria-current="page" href="service.html">Boka service</a>
+               </div>
+               <div class="col"><a class="nav-link active" aria-current="page" href="kopbil.html">Köpa bil</a></div>
+               <div class="col"><a class="nav-link active" aria-current="page" href="saljbil.html">Sälja bil</a></div>
+            </div>
+         </div>
+
+         <div class="container pt-5">
+            <div class="container text-center">
+               <div class="row align-items-start">
+                  <div class="col border border-secondary">
+                     <h1 class="h3">Stockholm</h1>
+                     <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero natus nihil aut sunt odio culpa
+                        quae quo quisquam iusto quos! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero
+                        natus nihil aut sunt odio culpa quae quo quisquam iusto quos! Lorem ipsum dolor, sit amet
+                        consectetur adipisicing elit. Libero natus nihil aut sunt odio culpa quae quo quisquam iusto
+                        quos! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero natus nihil aut sunt odio
+                        culpa quae quo quisquam iusto quos!v Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                        Libero natus nihil aut sunt odio culpa quae quo quisquam iusto quos!v
+                     </p>
+                  </div>
+                  <div class="col border border-secondary">
+                     <div class="col">
+                        <h1 class="h3">Malmö</h1>
+                        <p>
+                           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero natus nihil aut sunt odio
+                           culpa quae quo quisquam iusto quos! Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                           Libero natus nihil aut sunt odio culpa quae quo quisquam iusto quos! Lorem ipsum dolor, sit
+                           amet consectetur adipisicing elit. Libero natus nihil aut sunt odio culpa quae quo quisquam
+                           iusto quos! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero natus nihil aut
+                           sunt odio culpa quae quo quisquam iusto quos!v Lorem ipsum dolor, sit amet consectetur
+                           adipisicing elit. Libero natus nihil aut sunt odio culpa quae quo quisquam iusto quos!v
+                        </p>
+                     </div>
+                  </div>
+                  <div class="col border border-secondary">
+                     <div class="col">
+                        <h1 class="h3">Göteborg</h1>
+                        <p>
+                           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero natus nihil aut sunt odio
+                           culpa quae quo quisquam iusto quos! Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                           Libero natus nihil aut sunt odio culpa quae quo quisquam iusto quos! Lorem ipsum dolor, sit
+                           amet consectetur adipisicing elit. Libero natus nihil aut sunt odio culpa quae quo quisquam
+                           iusto quos! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero natus nihil aut
+                           sunt odio culpa quae quo quisquam iusto quos!v Lorem ipsum dolor, sit amet consectetur
+                           adipisicing elit. Libero natus nihil aut sunt odio culpa quae quo quisquam iusto quos!v
+                        </p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+
+         <div class="container w-50 p-3text-center pt-5">
+            <div class="row align-items-start">
+               <div class="col">
+                  <div class="text-bg-secondary p-3">
+                     <label for="exampleFormControlInput1" class="form-label text-black">Maila till oss</label>
+                     <input
+                        type="email"
+                        class="form-control"
+                        id="exampleFormControlInput1"
+                        placeholder="name@example.com" />
+                  </div>
+                  <div class="text-bg-secondary p-3">
+                     <label for="exampleFormControlTextarea1" class="form-label text-black">Upplysning</label>
+                     <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </main>
+      <br />
+      <br />
+      <footer>
+         <div class="container-fluid text-bg-secondary">
+            <div class="container text-black text-center">
+               <div class="row row-cols-4">
+                  <div class="col">
+                     <h3 class="text-black">Adress</h3>
+                     <p>Storgatan 1</p>
+                     <p>Stockholm 120 23</p>
+                  </div>
+                  <div class="col">
+                     <h3 class="text-black">Telefon</h3>
+                     <p>070145878</p>
+                     <p>08 521 457</p>
+                  </div>
+                  <div class="col">
+                     <h3 class="text-black">E-post</h3>
+                     <p>Info@biltransport.se</p>
+                  </div>
+                  <div class="col">
+                     <h3 class="text-black">Länkar</h3>
+                     <ul class="text-black">
+                        <li><a class="nav-link" href="saljbil.html">Sälja bil</a></li>
+                        <li><a class="nav-link" href="kopbil.html">Köpa bil</a></li>
+                        <li><a class="nav-link" href="service.html">Service</a></li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </footer>
+      <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+   </body>
+</html>
